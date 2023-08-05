@@ -8,7 +8,7 @@
       i++;
    }
 }
-//Заполняет массив int[] array = new int [10]
+// Заполняет массив int[] array = new int [10]
 
 void PrintArray(int[] col)
 {
@@ -20,8 +20,8 @@ void PrintArray(int[] col)
       position++;
    }
 }
+// Выводит в терминал массив int[] array = new int [10]
 
-//Выводит в терминал массив int[] array = new int [10]
 int IndexOff(int[] collection, int find)
 {
    int count = collection.Length;
@@ -37,6 +37,8 @@ int IndexOff(int[] collection, int find)
    }
    return position;
 }
+//Находит индекс нужного значения в массиве int[] array = new int [10];
+
 int[] array = new int [10];
 
 FillArray(array);
